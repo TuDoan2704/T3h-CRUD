@@ -34,8 +34,6 @@ function edit(i){
 
 $(document).ready(function(){
 
-    $("#time").text(myTime);
-
     $("#add").click(function(){
         var item;
         var name = document.getElementById("name").value;
